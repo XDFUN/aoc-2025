@@ -1,9 +1,19 @@
-﻿namespace aoc_2025;
+﻿using aoc_2025.day1;
 
-class Program
+namespace aoc_2025;
+
+public class Program
 {
-    static void Main(string[] args)
+    public static void Main(string[] args)
     {
-        Console.WriteLine("Hello, World!");
+        var days = new IDay[]
+        {
+        };
+
+        foreach (IDay day in days)
+        {
+            day.Part1();
+            day.Part2();
+        }
     }
 }
