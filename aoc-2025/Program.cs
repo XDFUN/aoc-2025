@@ -8,6 +8,7 @@ public class Program
     {
         var days = new IDay[]
         {
+            new Day1(),
         };
 
         foreach (IDay day in days)
